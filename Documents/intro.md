@@ -7,12 +7,12 @@
 
 | Task | Status |
 |:---------------|------------------------------------------------------:|
-| TCP Connection Between Server and Client | ***Fully Implemented*** |
-| Client Can Send Messeges to Server | ***Fully Implemented*** |
-| Two Threading | ***Fully Implemented*** |
-| Heartbeat | ***Fully Implemented*** |
-| Heartbeat Retry | ***Fully Implemented*** |
-| Heartbeat Timout | ***Fully Implemented*** |
+| Graphs | ***Fully Implemented*** |
+| Documantion | ***Fully Implemented*** |
+| Github Repo | ***Fully Implemented*** |
+| Word counting | ***Fully Implemented*** |
+| Error Handling | ***Fully Implemented*** |
+| Local and Remote Text Reading | ***Fully Implemented*** |
 
 
 ## Platforms
