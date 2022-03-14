@@ -3,7 +3,7 @@
 
 [Github Link](https://github.com/d0ntblink/gutenzahler)
 
-![Log](./Extra/Logo.png)
+![Log](https://github.com/d0ntblink/gutenzahler/blob/master/Extra/logo.png)
 
 ## Requirements
 
@@ -28,7 +28,7 @@ Tested on
 * Python
 
 ## Documents
-* [Report](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/report.pdf)
+* [Report](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/intro.pdf)
 * [Design](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/design.pdf)
 * [Testing](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/testing.pdf)
-* [Manual](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/user_manual.pdf)
+* [Manual](https://github.com/d0ntblink/gutenzahler/blob/master/Documents/usermanual.pdf)
