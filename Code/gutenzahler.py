@@ -12,6 +12,7 @@ fetch_mode = False
 read_mode = False
 pie_graph = False
 bar_graph = False
+stem_graph = False
 total_num_letters = 0
 # alphabet dictionary
 abcd = "abcdefghijklmnopqrstuvwxyz"
@@ -22,7 +23,7 @@ for letter in abcd:
 def print_help():
     print(
 '''
-\n\ngutenzahler is a python program for analyzing english alphabet frequency in a text.
+gutenzahler is a python program for analyzing english alphabet frequency in a text.
 
 Usage:
 to read and analyze a local file:
@@ -67,6 +68,8 @@ while True:
                 bar_graph = True
             elif argum == "--pie":
                 pie_graph = True
+            elif argum == "--stem":
+                stem_graph = True
     except:
         print('invalid arguments!!')
         print_help()
@@ -97,13 +100,16 @@ while True:
             total_num_letters += 1
 
     for letter, count in alphabet_dict.items():
-        print("%2.4f%% of the letter are the letter %s" % (((count/total_num_letters)*100), letter))
+        print("Found %i %s, that makes it %2.4f%% of all the letters found in this text." % (count, letter, ((count/total_num_letters)* 100)))
 
     if bar_graph:
         plotter.bar(alphabet_dict.keys(), height=alphabet_dict.values())
         plotter.show()
     if pie_graph:
         plotter.pie(alphabet_dict.values(), labels=alphabet_dict.keys())
+        plotter.show()
+    if stem_graph:
+        plotter.stem(alphabet_dict.keys(), alphabet_dict.values())
         plotter.show()
 
     break
